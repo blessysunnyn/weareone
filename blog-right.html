@@ -1,0 +1,820 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>KoDeal - Business Category Bootstrap Responsive Template | Blog Right :: W3layouts</title>
+    <!--/google-fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--//google-fonts -->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-liberty.css">
+</head>
+
+<body>
+<script src="//m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script>
+(function(){
+if(typeof _bsa !== 'undefined' && _bsa) {
+	// format, zoneKey, segment:value, options
+	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+}
+})();
+</script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=G-98H8KRKT85'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-98H8KRKT85');
+</script>
+
+<meta name="robots" content="noindex">
+<body><link rel="stylesheet" href="/assests/css/font-awesome.min.css">
+<!-- New toolbar-->
+<style>
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+
+#w3lDemoBar.w3l-demo-bar {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  padding: 40px 5px;
+  padding-top:70px;
+  margin-bottom: 70px;
+  background: #0D1326;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+#w3lDemoBar.w3l-demo-bar a {
+  display: block;
+  color: #e6ebff;
+  text-decoration: none;
+  line-height: 24px;
+  opacity: .6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#w3lDemoBar.w3l-demo-bar span.w3l-icon {
+  display: block;
+}
+
+#w3lDemoBar.w3l-demo-bar a:hover {
+  opacity: 1;
+}
+
+#w3lDemoBar.w3l-demo-bar .w3l-icon svg {
+  color: #e6ebff;
+}
+#w3lDemoBar.w3l-demo-bar .responsive-icons {
+  margin-top: 30px;
+  border-top: 1px solid #41414d;
+  padding-top: 40px;
+}
+#w3lDemoBar.w3l-demo-bar .demo-btns {
+  border-top: 1px solid #41414d;
+  padding-top: 30px;
+}
+#w3lDemoBar.w3l-demo-bar .responsive-icons a span.fa {
+  font-size: 26px;
+}
+#w3lDemoBar.w3l-demo-bar .no-margin-bottom{
+  margin-bottom:0;
+}
+.toggle-right-sidebar span {
+  background: #0D1326;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #e6ebff;
+  border-radius: 50px;
+  font-size: 26px;
+  cursor: pointer;
+  opacity: .5;
+}
+.pull-right {
+  float: right;
+  position: fixed;
+  right: 0px;
+  top: 70px;
+  width: 90px;
+  z-index: 99999;
+  text-align: center;
+}
+/* ============================================================
+RIGHT SIDEBAR SECTION
+============================================================ */
+
+#right-sidebar {
+  width: 90px;
+  position: fixed;
+  height: 100%;
+  z-index: 1000;
+  right: 0px;
+  top: 0;
+  margin-top: 60px;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  overflow-y: auto;
+}
+
+
+/* ============================================================
+RIGHT SIDEBAR TOGGLE SECTION
+============================================================ */
+
+.hide-right-bar-notifications {
+  margin-right: -300px !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+
+
+@media (max-width: 992px) {
+  #w3lDemoBar.w3l-demo-bar a.desktop-mode{
+      display: none;
+
+  }
+}
+@media (max-width: 767px) {
+  #w3lDemoBar.w3l-demo-bar a.tablet-mode{
+      display: none;
+
+  }
+}
+@media (max-width: 568px) {
+  #w3lDemoBar.w3l-demo-bar a.mobile-mode{
+      display: none;
+  }
+  #w3lDemoBar.w3l-demo-bar .responsive-icons {
+      margin-top: 0px;
+      border-top: none;
+      padding-top: 0px;
+  }
+  #right-sidebar,.pull-right {
+      width: 90px;
+  }
+  #w3lDemoBar.w3l-demo-bar .no-margin-bottom-mobile{
+      margin-bottom: 0;
+  }
+}
+</style>
+<div class="pull-right toggle-right-sidebar">
+<span class="fa title-open-right-sidebar tooltipstered fa-angle-double-right"></span>
+</div>
+
+<div id="right-sidebar" class="right-sidebar-notifcations nav-collapse">
+<div class="bs-example bs-example-tabs right-sidebar-tab-notification" data-example-id="togglable-tabs">
+
+    <div id="w3lDemoBar" class="w3l-demo-bar">
+        <div class="demo-btns">
+        <a href="https://w3layouts.com/?p=4763800000215039">
+            <span class="w3l-icon -back">
+                <span class="fa fa-arrow-left"></span>
+            </span>
+            <span class="w3l-text">Back</span>
+        </a>
+        <a href="https://w3layouts.com/?p=4763800000215039">
+            <span class="w3l-icon -download">
+                <span class="fa fa-download"></span>
+            </span>
+            <span class="w3l-text">Download</span>
+        </a>
+        <a href="https://w3layouts.com/checkout/?add-to-cart=4763800000215039" class="no-margin-bottom-mobile">
+            <span class="w3l-icon -buy">
+                <span class="fa fa-shopping-cart"></span>
+            </span>
+            <span class="w3l-text">Buy</span>
+        </a>
+    </div>
+        <!---<div class="responsive-icons">
+            <a href="#url" class="desktop-mode">
+                <span class="w3l-icon -desktop">
+                    <span class="fa fa-desktop"></span>
+                </span>
+            </a>
+            <a href="#url" class="tablet-mode">
+                <span class="w3l-icon -tablet">
+                    <span class="fa fa-tablet"></span>
+                </span>
+            </a>
+            <a href="#url" class="mobile-mode no-margin-bottom">
+                <span class="w3l-icon -mobile">
+                    <span class="fa fa-mobile"></span>
+                </span>
+            </a>
+        </div>-->
+    </div>
+    <div class="right-sidebar-panel-content animated fadeInRight" tabindex="5003"
+        style="overflow: hidden; outline: none;">
+    </div>
+</div>
+</div>
+</div>
+
+    <!--/Header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
+                <h1><a class="navbar-brand pe-xl-5 pe-lg-4" href="index.html">
+                        Ko<span class="sublog">Deal.</span>
+                    </a></h1>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-lg-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#Pages" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog <span class="fa fa-angle-down ms-1"></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item pt-2" href="blog.html">Blog Grids</a></li>
+                                <li><a class="dropdown-item" href="blog-left.html">Blog Left Sidebar </a></li>
+                                <li><a class="dropdown-item" href="blog-right.html">Blog Right Sidebar</a></li>
+                                <li><a class="dropdown-item" href="blog-left-single.html">Blog Single Left Sidebar</a></li>
+                                <li><a class="dropdown-item" href="blog-right-single.html">Blog Single Right Sidebar </a></li>
+                                <li><a class="dropdown-item" href="blog-single.html">Blog Single Post</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#Pages" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages <span class="fa fa-angle-down ms-1"></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="email.html">Email Page</a></li>
+                                <li><a class="dropdown-item" href="elements.html">Elements</a></li>
+
+                                <li><a class="dropdown-item" href="landing.html">Landing Page</a></li>
+                                <li><a class="dropdown-item " href="error.html">404</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav search-right mt-lg-0 mt-2">
+                        <li class="nav-item mr-2" title="Search"><a href="#search" class="search-search">
+                                <span class="fas fa-search" aria-hidden="true"></span></a></li>
+                        <li class="nav-item mx-lg-4"><a href="#" class="phone-btn btn-white d-none d-lg-block btn-style ms-2"><span class="fas fa-user me-2" aria-hidden="true"></span> User Login</a></li>
+                    </ul>
+
+                    <!-- //toggle switch for light and dark theme -->
+                    <!-- search popup -->
+                    <div id="search" class="w3lpop-overlay">
+                        <div class="w3lpopup">
+                            <form action="#formsearch" method="GET" class="d-flex">
+                                <input type="search" placeholder="Search.." name="search" required="required" autofocus>
+                                <button type="submit"><span class="fas fa-search"></span></button>
+                                <a class="close" href="#formsearch">&times;</a>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /search popup -->
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!--//Header-->
+    <!-- breadcrumb -->
+    <section class="w3l-about-breadcrumb">
+        <div class="breadcrumb-bg breadcrumb-bg-about py-5">
+            <div class="container py-lg-5 py-md-4">
+                <div class="w3breadcrumb-gids text-center pt-5">
+                    <div class="w3breadcrumb-right">
+                        <ul class="breadcrumbs-custom-path">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><span class="fas fa-angle-double-right mx-2"></span> Blog Right Sidebar </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//breadcrumb-->
+	<div style="margin: 8px auto; display: block; text-align:center;">
+
+<!---728x90--->
+
+ 
+</div>
+    <!--//blogs-right-->
+    <section class="w3l-courses w3l-grids-page py-5" id="bloggrids">
+        <div class="text-11 py-md-5 py-3" id="classes">
+            <div class="container">
+                <div class="row w3l-blog-single">
+                    <div class="col-lg-8 blogw3-left-content">
+                        <div class="row">
+                            <div class="col-12 item mt-0">
+                                <div class="card">
+                                    <div class="card-header p-0 position-relative">
+                                        <a href="blog-single.html" class="zoom d-block">
+                                            <img class="card-img-bottom d-block" src="assets/images/banner1.jpg" alt="Card image cap">
+                                        </a>
+                                    </div>
+                                    <div class="card-body course-details">
+                                        <div class="course-meta mb-3">
+                                            <div class="meta-item course-lesson">
+                                                <a href="#"><span class="fas fa-user"></span>
+                                                    <span class="meta-value">By Ambady </span></a>
+                                            </div>
+
+                                            <div class="meta-item course-students">
+                                                <span class="fas fa-calendar-week"></span>
+                                                <span class="meta-value"> 12.10.2021 </span>
+                                            </div>
+                                        </div>
+                                        <a href="blog-single.html" class="course-desc">Keep Your Business Safe Ensure High Availability.
+                                        </a>
+                                        <p class="mt-3">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet.Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore.</p>
+                                        <div class="blog-bottom-info">
+                                            <a href="blog-single.html" class="btn btn-primary btn-style mt-4">Read
+                                                More <span class="fas fa-angle-double-right ms-2"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 item mt-lg-5 mt-4">
+                                <div class="card">
+                                    <div class="card-header p-0 position-relative">
+                                        <a href="blog-single.html" class="zoom d-block">
+                                            <img class="card-img-bottom d-block" src="assets/images/banner2.jpg" alt="Card image cap">
+                                        </a>
+
+                                    </div>
+                                    <div class="card-body course-details">
+                                        <div class="course-meta mb-3">
+                                            <div class="meta-item course-lesson">
+                                                <a href="#"><span class="fas fa-user"></span>
+                                                    <span class="meta-value">By Ambady </span></a>
+                                            </div>
+
+                                            <div class="meta-item course-students">
+                                                <span class="fas fa-calendar-week"></span>
+                                                <span class="meta-value"> 12.10.2021 </span>
+                                            </div>
+                                        </div>
+                                        <a href="blog-single.html" class="course-desc">Keep Your Business Safe Ensure High Availability.
+                                        </a>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet.Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore.</p>
+                                        <div class="blog-bottom-info">
+                                            <a href="blog-single.html" class="btn btn-primary btn-style mt-4">Read
+                                                More <span class="fas fa-angle-double-right ms-2"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 item mt-lg-5 mt-4">
+                                <div class="card">
+                                    <div class="card-header p-0 position-relative">
+                                        <a href="blog-single.html" class="zoom d-block">
+                                            <img class="card-img-bottom d-block" src="assets/images/banner3.jpg" alt="Card image cap">
+                                        </a>
+
+                                    </div>
+                                    <div class="card-body course-details">
+                                        <div class="course-meta mb-3">
+                                            <div class="meta-item course-lesson">
+                                                <a href="#"><span class="fas fa-user"></span>
+                                                    <span class="meta-value">By Ambady </span></a>
+                                            </div>
+
+                                            <div class="meta-item course-students">
+                                                <span class="fas fa-calendar-week"></span>
+                                                <span class="meta-value"> 12.10.2021 </span>
+                                            </div>
+                                        </div>
+                                        <a href="blog-single.html" class="course-desc">Keep Your Business Safe Ensure High Availability.
+                                        </a>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet.Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore.</p>
+                                        <div class="blog-bottom-info">
+                                            <a href="blog-single.html" class="btn btn-primary btn-style mt-4">Read
+                                                More <span class="fas fa-angle-double-right ms-2"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 item mt-lg-5 mt-4">
+                                <div class="card">
+                                    <div class="card-header p-0 position-relative">
+                                        <a href="blog-single.html" class="zoom d-block">
+                                            <img class="card-img-bottom d-block" src="assets/images/banner4.jpg" alt="Card image cap">
+                                        </a>
+                                    </div>
+                                    <div class="card-body course-details">
+                                        <div class="course-meta mb-3">
+                                            <div class="meta-item course-lesson">
+                                                <a href="#"><span class="fas fa-user"></span>
+                                                    <span class="meta-value">By Ambady </span></a>
+                                            </div>
+
+                                            <div class="meta-item course-students">
+                                                <span class="fas fa-calendar-week"></span>
+                                                <span class="meta-value"> 12.10.2021 </span>
+                                            </div>
+                                        </div>
+                                        <a href="blog-single.html" class="course-desc">Keep Your Business Safe Ensure High Availability.
+                                        </a>
+                                        <p class="mt-3">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet.Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore.</p>
+                                        <div class="blog-bottom-info">
+                                            <a href="blog-single.html" class="btn btn-primary btn-style mt-4">Read
+                                                More <span class="fas fa-angle-double-right ms-2"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 item mt-lg-5 mt-4">
+                                <div class="card">
+                                    <div class="card-header p-0 position-relative">
+                                        <a href="blog-single.html" class="zoom d-block">
+                                            <img class="card-img-bottom d-block" src="assets/images/banner2.jpg" alt="Card image cap">
+                                        </a>
+
+                                    </div>
+                                    <div class="card-body course-details">
+                                        <div class="course-meta mb-3">
+                                            <div class="meta-item course-lesson">
+                                                <a href="#"><span class="fas fa-user"></span>
+                                                    <span class="meta-value">By Ambady </span></a>
+                                            </div>
+
+                                            <div class="meta-item course-students">
+                                                <span class="fas fa-calendar-week"></span>
+                                                <span class="meta-value"> 12.10.2021 </span>
+                                            </div>
+                                        </div>
+                                        <a href="blog-single.html" class="course-desc">Keep Your Business Safe Ensure High Availability.
+                                        </a>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet.Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore.</p>
+                                        <div class="blog-bottom-info">
+                                            <a href="blog-single.html" class="btn btn-primary btn-style mt-4">Read
+                                                More <span class="fas fa-angle-double-right ms-2"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 blogw3-right-content right-side-bar ps-lg-4 mt-lg-0 mt-5">
+                        <aside class="posts">
+                            <h3 class="aside-title">All Categories</h3>
+                            <ul class="category">
+                                <li><a href="#link"><span class="fas fa-angle-right"></span> Teamwork <label>
+                                            (11)</label></a></li>
+                                <li><a href="#link"><span class="fas fa-angle-right"></span> Ideas
+                                        <label>(24)</label></a></li>
+                                <li><a href="#link"><span class="fas fa-angle-right"></span> Workspace
+                                        <label>(18)</label></a></li>
+                                <li><a href="#link"><span class="fas fa-angle-right"></span> Coding
+                                        <label>(08)</label></a></li>
+                                <li><a href="#link"><span class="fas fa-angle-right"></span> Meeting
+                                        <label>(08)</label></a></li>
+                                <li><a href="#link"><span class="fas fa-angle-right"></span> Uncategorized
+
+                                        <label>(38)</label></a></li>
+                            </ul>
+                        </aside>
+                        <aside class="posts">
+                            <h3 class="aside-title">Recent Posts</h3>
+                            <div class="posts-grids">
+                                <div class="posts-grid-inner">
+                                    <div class="posts-grid-left pr-0">
+                                        <a href="blog-single.html">
+                                            <img src="assets/images/g3.jpg" alt=" " class="img-fluid radius-image">
+                                        </a>
+                                    </div>
+                                    <div class="posts-grid-right">
+                                        <h4>
+                                            <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
+                                        </h4>
+                                        <span class="price"> 11 Minutes ago</span>
+                                    </div>
+                                </div>
+                                <div class="posts-grid-inner my-4">
+                                    <div class="posts-grid-left pr-0">
+                                        <a href="blog-single.html">
+                                            <img src="assets/images/g2.jpg" alt=" " class="img-fluid radius-image">
+                                        </a>
+                                    </div>
+                                    <div class="posts-grid-right">
+                                        <h4>
+                                            <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
+                                        </h4>
+                                        <span class="price"> 15 Minutes ago</span>
+                                    </div>
+                                </div>
+                                <div class="posts-grid-inner">
+                                    <div class="posts-grid-left pr-0">
+                                        <a href="blog-single.html">
+                                            <img src="assets/images/g4.jpg" alt=" " class="img-fluid radius-image">
+                                        </a>
+                                    </div>
+                                    <div class="posts-grid-right">
+                                        <h4>
+                                            <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
+                                        </h4>
+                                        <span class="price"> 15 Minutes ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+
+                        <aside class="posts">
+                            <h3 class="aside-title">Instagram Posts</h3>
+                            <div class="row posts-grid">
+                                <a href="#insta" class="col-4">
+                                    <img src="assets/images/g5.jpg" alt=" " class="img-fluid radius-image">
+                                </a>
+                                <a href="#insta" class="col-4">
+                                    <img src="assets/images/g3.jpg" alt=" " class="img-fluid radius-image">
+                                </a>
+                                <a href="#insta" class="col-4">
+                                    <img src="assets/images/g7.jpg" alt=" " class="img-fluid radius-image">
+                                </a>
+                                <a href="#insta" class="col-4 mt-3">
+                                    <img src="assets/images/g6.jpg" alt=" " class="img-fluid radius-image">
+                                </a>
+                                <a href="#insta" class="col-4 mt-3">
+                                    <img src="assets/images/g2.jpg" alt=" " class="img-fluid radius-image">
+                                </a>
+                                <a href="#insta" class="col-4 mt-3">
+                                    <img src="assets/images/g1.jpg" alt=" " class="img-fluid radius-image">
+                                </a>
+
+                            </div>
+                        </aside>
+                        <aside class="posts">
+                            <h3 class="aside-title">Popular Tags</h3>
+                            <ul class="tags-list">
+                                <li><a href="#tag"> Agency</a></li>
+                                <li><a href="#tag"> Growth</a></li>
+                                <li><a href="#tag"> Goal</a></li>
+                                <li><a href="#tag"> Work</a></li>
+                                <li><a href="#tag"> Lead</a></li>
+                                <li><a href="#tag"> Agency</a></li>
+                                <li><a href="#tag"> Earn</a></li>
+                                <li><a href="#tag"> Business</a></li>
+                                <li><a href="#tag"> Tips</a></li>
+                            </ul>
+                        </aside>
+                        <aside class="posts">
+                            <h3 class="aside-title">Advertisement</h3>
+                            <a href="blog-single.html">
+                                <img src="assets/images/team1.jpg" alt=" " class="img-fluid radius-image">
+                            </a>
+                        </aside>
+                    </div>
+                </div>
+
+                <!--/w3l-footer-29-main-->
+                <div class="pagination-wrapper mt-5 pt-lg-3 text-left">
+                    <ul class="page-pagination">
+                        <li><a class="pre page-numbers current" href="#url"> <span class="fas fa-arrow-left"></span></a></li>
+                        <li><a class="page-numbers" href="#url">1</a></li>
+                        <li><a class="page-numbers" href="#url">2</a></li>
+                        <li><a class="page-numbers" href="#url">3</a></li>
+                        <li><a class="page-numbers" href="#url">...</a></li>
+                        <li><a class="page-numbers" href="#url">10</a></li>
+                        <li><a class="next" href="#url"> <span class="fas fa-arrow-right"></span></a></li>
+                    </ul>
+                </div>
+                <!--//w3l-footer-29-main-->
+            </div>
+        </div>
+    </section>
+    <!--//blogs-right-->
+	<div style="margin: 8px auto; display: block; text-align:center;">
+
+<!---728x90--->
+ 
+</div>
+    <!--/w3l-footer-29-main-->
+    <footer class="w3l-footer-29-main">
+        <div class="footer-29 py-5">
+            <div class="container py-lg-4">
+                <div class="row align-items-center mb-3">
+                    <h2 class="sign-left col-lg-7"> Join our community by using our services and grow your business. </h2>
+                    <div class="footerw3-btn col-lg-5 ps-lg-5"><a href="#" class="btn btn-secondary btn-style"> Try it For Free <span class="fas fa-angle-double-right ms-2"></span></a></div>
+                </div>
+
+                <div class="row footer-top-29 mt-md-5 mt-4">
+                    <div class="col-lg-4 col-md-6 footer-list-29 footer-1 pe-lg-5">
+                        <h6 class="footer-title-29">About</h6>
+                        <div class="footer-listw3-grids">
+                            <p class="pe-lg-4">Lorem ipsum dolor sit amet consectetur ipsum amet elit.Sit amet consectetur ipsum amet,Lorem ipsum dolor sit amet. </p>
+                            <div class="w3pt-call-box mt-4">
+                                <div class="w3pt-call-info">
+                                    <h5>Get Us Support</h5>
+
+                                    <h5><a href="tel:+1(21) 234 557 456"><i class="fas fa-phone-alt me-1"></i> +1(21) 234 557 456</a></h5>
+                                    <h5><a href="tel:+1(21) 234 4568"><i class="far fa-envelope me-1"></i> <a href="/cdn-cgi/l/email-protection#31424441415e4345715c50585d1f525e5c" class="mail"> <span class="__cf_email__" data-cfemail="a4d7d1d4d4cbd6d0e4c9c5cdc88ac7cbc9">[email&#160;protected]</span></a></a></h5>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-list-29 footer-3 mt-lg-0 mt-5">
+                        <h6 class="footer-title-29">Links</h6>
+                        <div class="footer-listw3-grids">
+                            <ul class="footer-listw3">
+                                <li><a href="#us">About Us</a></li>
+                                <li><a href="#team">Our Team</a></li>
+                                <li><a href="#pro">Projects</a></li>
+                                <li><a href="#career">Careers</a></li>
+                                <li><a href="#terms">Terms of Use</a></li>
+                                <li><a href="#tips">Privacy Policy</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-list-29 footer-3 mt-lg-0 mt-5">
+                        <h6 class="footer-title-29">Services</h6>
+                        <div class="footer-listw3-grids">
+                            <ul class="footer-listw3">
+                                <li><a href="#lift">Secure services</a></li>
+                                <li><a href="#cardio">Digital arrange</a></li>
+                                <li><a href="#fit">Content strategy</a></li>
+                                <li><a href="#tips">Processing services</a></li>
+                                <li><a href="#tips">Web hosting</a></li>
+                                <li><a href="#tips">Page optimization</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-list-29 footer-4 mt-lg-0 mt-5 ps-lg-5">
+                        <h6 class="footer-title-29">Keep Connected</h6>
+                        <p>Get Updates By Subscribe Our Weekly Newsletter</p>
+
+                        <form action="#" class="subscribe" method="post">
+                            <input type="email" name="email" placeholder="Your Email Address" required="">
+                            <button><span class="fas fa-paper-plane"></span></button>
+                        </form>
+                        <div class="main-social-footer-29 mt-4">
+                            <a href="#facebook" class="facebook"><span class="fab fa-facebook-f"></span></a>
+                            <a href="#twitter" class="twitter"><span class="fab fa-twitter"></span></a>
+                            <a href="#instagram" class="instagram"><span class="fab fa-instagram"></span></a>
+
+                            <a href="#linkd" class="linkd"><span class="fab fa-linkedin-in"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-copies text-center">
+                    <p class="copy-footer-29">© 2021 KoDeal. All rights reserved. Design by
+                        <a href="https://w3layouts.com/" target="_blank"> W3Layouts</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            <span class="fa fa-angle-up"></span>
+        </button>
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("movetop").style.display = "block";
+                } else {
+                    document.getElementById("movetop").style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+
+        </script>
+        <!-- //move top -->
+
+    </footer>
+    <!--//footer-9 -->
+    <!-- Js scripts -->
+    <!-- Template JavaScript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/theme-change.js"></script>
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function() {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function() {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function() {
+            $('.navbar-toggler').click(function() {
+                $('body').toggleClass('noscroll');
+            })
+        });
+
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!-- //bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8b20c0494d2e18ce',t:'MTcyMzQ2ODcwNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>
